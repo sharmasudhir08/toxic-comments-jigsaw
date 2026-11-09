@@ -1,0 +1,5 @@
+tokenizer,checkpoint,n_sampled,mean_word_count,median_word_count,max_word_count,mean_subword_per_word_ratio,pct_over_128,words_covered_by_128_budget
+NLTK (recurrent),-,63978,78.7021,41.0,4948,,15.2271,128.0
+BERT,bert-base-uncased,5000,75.0614,41.0,1231,1.2511,17.38,107.5908
+DistilBERT,distilbert-base-uncased,5000,75.0614,41.0,1231,1.2511,17.38,107.5908
+RoBERTa,roberta-base,5000,75.0614,41.0,1231,1.2507,16.3,106.2169

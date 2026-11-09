@@ -1,0 +1,7 @@
+model,family,mean_f1_macro_m,benchmark_tuned,diff,seeds_above,t_stat,df,p_one_sided,p_holm_6models,sig_0.05,p_holm_within_family,sig_within_family_0.05
+LSTM,recurrent,0.57577,0.592,-0.01623,0/3,-3.44702,2,0.96258,1.0,False,1.0,False
+Bi-LSTM,recurrent,0.58297,0.592,-0.00903,1/3,-0.73407,2,0.73035,1.0,False,1.0,False
+GRU,recurrent,0.57573,0.592,-0.01627,0/3,-7.0986,2,0.99036,1.0,False,1.0,False
+BERT,transformer,0.62465,0.621,0.00365,3/3,10.53943,2,0.00444,0.02665,True,0.01332,True
+DistilBERT,transformer,0.61989,0.621,-0.00111,2/3,-0.20156,2,0.57055,1.0,False,1.0,False
+RoBERTa,transformer,0.61441,0.621,-0.00659,1/3,-1.55617,2,0.87003,1.0,False,1.0,False

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the associated manuscript (citation details to follow publication)."
+title: "How Reliable Are Architecture Rankings? A Multi-Seed Comparison of Recurrent and Transformer Models for Multi-Label Toxic Comment Classification"
+version: 1.0.0
+date-released: 2026-11-09
+license: Apache-2.0
+authors:
+  - family-names: Sharma
+    given-names: "Sudhir Kumar"
+    affiliation: "Sharda University"
+  - family-names: Vasishth
+    given-names: Sneha
+    affiliation: "LeewayHertz"
+repository-code: "https://github.com/sharmasudhir08/toxic-comments-jigsaw"

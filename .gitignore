@@ -1,0 +1,49 @@
+# Dataset (download from Kaggle, see README.md)
+data/
+*.csv.zip
+
+# Model checkpoints and saved predictions
+*.pt
+*.bin
+*.safetensors
+pytorch_model*
+checkpoint-*/
+*.npz
+
+# Manuscripts, drafts, internal notes -- never part of this reviewer package
+*.docx
+*.docm
+manuscript_source.md
+PAPER_PLAN*.md
+preregistration*.md
+findings_for_paper.md
+RESULTS_LOG.md
+*AUDIT*.md
+*AUDIT*.csv
+PROJECT_BRIEF.md
+CLAUDE.md
+
+# Figure- and paper-preparation scripts (not included in this package)
+make_*figure*.py
+build_fig*.py
+
+# Logs
+logs/
+*.log
+
+# Legacy files, not part of this study
+recurent_models.docx
+research_paper_recurrent_*.docx
+reference_comparison.xlsx
+app.py
+
+# Pre-sync / scratch copies
+*_pre-sync_*
+*.pyc
+__pycache__/
+
+# Seeds 45-46 (supplementary, excluded from the primary analysis)
+*_45/
+*_46/
+seed_45/
+seed_46/

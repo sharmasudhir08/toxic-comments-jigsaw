@@ -1,0 +1,7 @@
+model,minority_margin,minority_margin_without_threat,frequent_margin,threat_margin
+LSTM,0.03693,-0.0139,-0.0286,0.1386
+Bi-LSTM,0.0348,-0.0183,-0.02183,0.141
+GRU,0.0241,-0.0288,-0.02753,0.1299
+BERT,0.02547,-0.01455,-0.00803,0.1055
+DistilBERT,0.0223,-0.0129,-0.00977,0.0927
+RoBERTa,0.0141,-0.0159,-0.01343,0.0741

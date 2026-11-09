@@ -1,0 +1,24 @@
+paper_item,result_file,source_filename,script,description
+Table 1,Table01_overall_performance.csv,table1_overall_mean_std.csv,generate_results.py,"Overall performance, mean +/- SD over 3 seeds, 0.5 and tuned thresholds, incl. PR-AUC macro"
+Table 2,Table02_h1_nested_anova.csv,table_h1_nested_anova.csv,src/analysis/family_comparison.py,H1 nested ANOVA (family vs. model nested within family) F(1,4)
+Table 3,Table03_per_label_f1.csv,table2_per_label_f1.csv,generate_results.py,Per-label F1 at tuned thresholds
+Table 4,Table04a_h2_tukey_holm.csv,table_h2_tukey_hsd_auc.csv,src/analysis/h2_full_methods.py,"H2 Tukey HSD (primary, with Holm over 9 pairs) and plain Tukey (sensitivity)"
+Table 4,Table04b_h2_delong.csv,table_h2_delong_summary.csv,src/analysis/h2_full_methods.py,H2 DeLong's test per label median-across-labels
+Table 4,Table04c_h2_bootstrap.csv,table_h2_bootstrap.csv,src/analysis/h2_full_methods.py,H2 paired bootstrap over test comments
+Table 5,Table05_h2_paired_by_seed.csv,table_h2_paired_by_seed.csv,src/analysis/h2_paired_by_seed.py,H2 paired-by-seed supplementary (paired t-test + exact sign-flip permutation)
+Table 6,Table06a_h3_vs_benchmark.csv,table_h3_vs_maslej_tuned_comparator.csv,src/analysis/h3_h4_vs_maslej_tuned_comparator.py,H3a/H3b vs. published benchmark (tuned-vs-tuned comparator)
+Table 6,Table06b_h3_within_family_holm.csv,table_h3_within_family_holm.csv,src/analysis/paper2_posthoc_corrections.py,"H3a/H3b Holm correction within each benchmark family (primary, per preregistration.md)"
+Table 6,Table06c_h4_per_label_vs_benchmark.csv,table8_per_label_vs_maslej.csv,generate_results.py,Full per-label margin over the published benchmark (input to the H4 margin columns)
+Table 6,Table06d_h4_margins_with_without_threat.csv,table_h4_per_label_margins.csv,src/analysis/paper2_posthoc_corrections.py,H4 minority/frequent margin per model, with and without the threat label
+Table 7,Table07a_h5_mcnemar_fisher.csv,table_h5_single_vs_multi_seed.csv,src/analysis/single_vs_multi_seed.py,H5 single-seed vs. multi-seed McNemar + Fisher-combined
+Table 7,Table07b_h5_permutation.csv,table_h5_paired_permutation.csv,src/analysis/h5_paired_permutation.py,H5 paired permutation test (robustness check)
+Table 7,Table07c_h5_permutation_vs_mcnemar.csv,table_h5_permutation_vs_mcnemar.csv,src/analysis/h5_paired_permutation.py,H5 permutation vs. McNemar+Fisher agreement
+Table 8,Table08_e1_prevalence_calibration.csv,table_e1_prevalence_normalized_calibration.csv,src/analysis/e1_prevalence_normalized_calibration.py,E1 prevalence-normalised ECE and Brier skill score (BSS)
+"Sec. 4.6 (duplicate screen)",Supp_h7_duplicate_screen_summary.csv,table_h7_duplicate_screen_summary.csv,src/analysis/duplicate_audit.py,"Near-duplicate (cosine>=0.9) and near-exact (cosine>=0.99) counts"
+"Sec. 4.6 (screened nested ANOVA)",Supp_h1_screened_nested_anova.csv,table_h1_nested_anova_screened_v2.csv,src/analysis/paper2_posthoc_corrections.py,"H1 primary nested ANOVA repeated on the duplicate-screened set (F1(M)/ROC-AUC/PR-AUC/ECE)"
+"Sec. 4.6 (screened Welch secondary)",Supp_h7_family_screened_welch.csv,table_h7_family_screened.csv,NONE FOUND -- see TRACEABILITY.md Honest gaps,Welch secondary check on the duplicate-screened set
+"Sec. 4.6/5.3 (length-bin raw)",Supp_h7_length_control_raw.csv,table_h7_length_control_nested_anova.csv,src/analysis/h7_length_control_nested_anova.py,Per-length-bin nested ANOVA (raw p-values) for F1(M)/ROC-AUC/ECE
+"Sec. 4.6/5.3 (length-bin Holm)",Supp_h7_length_control_holm10.csv,table_h7_length_control_holm10.csv,src/analysis/paper2_posthoc_corrections.py,Holm correction over the 10 length-bin tests (primary significance read)
+"Sec. 5.3 (truncation)",Supp_truncation_mismatch.csv,table_truncation_mismatch.csv,src/analysis/check_truncation_mismatch.py,Word-vs-subword truncation mismatch at the 128-unit budget
+"Sec. 5.1 (seed CV)",Supp_h9_seed_stability_cv.csv,table_h9_seed_stability.csv,src/analysis/seed_stability.py,Coefficient of variation across seeds for discrimination vs. calibration metrics
+"Sec. 5.1 (raw ECE Holm)",Supp_h8_raw_ece_minority_vs_frequent.csv,table_h8_calibration.csv,NONE FOUND -- see TRACEABILITY.md Honest gaps,Minority-vs-frequent raw ECE one-sided test Holm-corrected (ratio 3.80-5.44x minority-better-calibrated)

@@ -1,0 +1,18 @@
+# Training environment (exact versions, from the saved run configuration in every
+# results_proposed/runs/*/seed_*/metrics.json): Python 3.12, Apple M2, PyTorch MPS backend for the
+# transformers, CPU for the recurrent models. Needed only if you choose to retrain (src/training/);
+# verifying a reported number from the authors' saved outputs (src/analysis/) does not require them.
+torch==2.14.1
+transformers==5.21.0
+
+# Statistical analysis environment. These versions were used to run every script in src/analysis/
+# during this package's own verification pass and are confirmed to reproduce every CSV in
+# results/ exactly (see TRACEABILITY.md) -- they are not independently confirmed to be byte-identical
+# to whichever exact point versions were installed on the original MacBook at training time.
+scikit-learn==1.9.1
+scipy==1.18.1
+statsmodels==0.15.0
+pandas==3.0.6
+numpy==2.5.3
+matplotlib==3.11.2
+seaborn==0.13.2

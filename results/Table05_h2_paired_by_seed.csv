@@ -1,0 +1,10 @@
+recurrent,transformer,deltas,mean_delta,sd_delta,ci95_low_ttest,ci95_high_ttest,t_stat,p_one_sided_ttest,p_one_sided_permutation,p_ttest_holm_9pairs,p_perm_holm_9pairs,sig_ttest_0.05,sig_perm_0.05
+lstm,bert,"[np.float64(0.00339), np.float64(0.0023), np.float64(0.00609)]",0.00392,0.00195,-0.00092,0.00877,3.48453,0.0367,0.125,0.15357,1.0,False,False
+lstm,distilbert,"[np.float64(0.00489), np.float64(0.00414), np.float64(0.00796)]",0.00566,0.00202,0.00064,0.01068,4.85413,0.01996,0.125,0.13875,1.0,False,False
+lstm,roberta,"[np.float64(0.00382), np.float64(0.00344), np.float64(0.00639)]",0.00455,0.0016,0.00057,0.00854,4.91414,0.0195,0.125,0.13875,1.0,False,False
+bilstm,bert,"[np.float64(0.00927), np.float64(0.00205), np.float64(0.00245)]",0.00459,0.00406,-0.0055,0.01468,1.9574,0.09471,0.125,0.15708,1.0,False,False
+bilstm,distilbert,"[np.float64(0.01078), np.float64(0.00389), np.float64(0.00432)]",0.00633,0.00386,-0.00325,0.01591,2.84203,0.05236,0.125,0.15708,1.0,False,False
+bilstm,roberta,"[np.float64(0.00971), np.float64(0.00319), np.float64(0.00275)]",0.00522,0.0039,-0.00446,0.0149,2.3184,0.07315,0.125,0.15708,1.0,False,False
+gru,bert,"[np.float64(0.00646), np.float64(0.00235), np.float64(0.00553)]",0.00478,0.00215,-0.00057,0.01013,3.8464,0.03071,0.125,0.15357,1.0,False,False
+gru,distilbert,"[np.float64(0.00796), np.float64(0.0042), np.float64(0.0074)]",0.00652,0.00203,0.00148,0.01156,5.56234,0.01542,0.125,0.13875,1.0,False,False
+gru,roberta,"[np.float64(0.0069), np.float64(0.00349), np.float64(0.00583)]",0.00541,0.00174,0.00108,0.00973,5.38258,0.01641,0.125,0.13875,1.0,False,False

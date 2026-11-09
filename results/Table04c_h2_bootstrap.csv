@@ -1,0 +1,10 @@
+recurrent,transformer,median_p_boot,p_holm_9pairs,sig_0.05
+lstm,bert,0.002,0.006,True
+lstm,distilbert,0.0,0.0,True
+lstm,roberta,0.0,0.0,True
+bilstm,bert,0.035,0.035,True
+bilstm,distilbert,0.0,0.0,True
+bilstm,roberta,0.002,0.006,True
+gru,bert,0.0,0.0,True
+gru,distilbert,0.0,0.0,True
+gru,roberta,0.0,0.0,True

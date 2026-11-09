@@ -1,0 +1,5 @@
+metric,ss_family,df_family,ss_model_in_family,df_model_in_family,ss_error,df_error,ms_family,ms_model_in_family,ms_error,F_family_1_4,p_family_1_4,F_model_in_family_4_12,p_model_in_family_4_12
+f1_macro_m,0.00775,1,0.00026,4,0.00136,12,0.00775,7e-05,0.00011,118.2544,0.00041,0.57695,0.6849
+roc_auc_macro,0.00012,1,1e-05,4,4e-05,12,0.00012,0.0,0.0,83.48584,0.0008,0.48518,0.74658
+pr_auc_macro,0.01584,1,4e-05,4,0.00368,12,0.01584,1e-05,0.00031,1704.92041,0.0,0.03031,0.99797
+ece_macro,0.0,1,0.00013,4,0.00012,12,0.0,3e-05,1e-05,0.06263,0.81472,3.24765,0.05049

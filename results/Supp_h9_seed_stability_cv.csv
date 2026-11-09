@@ -1,0 +1,7 @@
+model,cv_f1_macro_m_pct,cv_roc_auc_pct,cv_ece_pct,cv_brier_pct,ece_more_sensitive_than_f1,brier_more_sensitive_than_auc,train_min_mean
+lstm,1.4164,0.1815,11.7486,7.8736,True,True,28.2033
+bilstm,3.6545,0.352,13.7928,13.475,True,True,46.83
+gru,0.6896,0.1402,10.3456,3.1914,True,True,29.77
+bert,0.0962,0.0813,4.4676,2.6063,True,True,564.1033
+distilbert,1.539,0.0672,3.4045,2.461,True,True,287.0967
+roberta,1.1943,0.0477,8.2405,1.824,True,True,480.52

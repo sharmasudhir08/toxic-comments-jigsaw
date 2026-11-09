@@ -1,0 +1,7 @@
+metric,value
+train_rows,159571.0
+test_rows,63978.0
+near_duplicate_rows,2029.0
+near_duplicate_pct,3.1714
+near_exact_rows_0.99,849.0
+threshold,0.9
